@@ -1,0 +1,47 @@
+# ===========================
+# FPGA Bicubic Project
+# Mac + ModelSim + Vivado
+# ===========================
+
+# ModelSim build artifacts
+work/
+*.wlf
+*.vstf
+transcript
+*.mpf
+
+# Vivado project artifacts (optional)
+vivado/
+*.jou
+*.log
+*.str
+*.cache/
+*.hw/
+*.runs/
+*.sim/
+*.ip_user_files/
+*.xpr
+*.Xil/
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+
+# Waveform files
+*.do
+*.wlf
+*.svf
+*.vcd
+
+# Mac system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# VSCode / Jetbrains IDE metadata (optional)
+.vscode/
+.idea/
+
+# Core dumps / crash reports
+core.*
